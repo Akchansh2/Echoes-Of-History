@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Story | Echoes of History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Echoes of History</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="archive.html">Archive</a></li>
+      <li><a href="submit.html">Submit</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html" class="btn">Login</a></li>
+    </ul>
+  </nav>
+
+  <section class="submit-hero">
+    <h1>Submit Your Story</h1>
+    <p>Help preserve history by sharing a memory, event, or personal reflection.</p>
+  </section>
+
+  <section class="submit-section">
+    <div class="submit-card">
+      <form class="submit-form">
+
+        <label>Story Title</label>
+        <input type="text" placeholder="Enter story title" required>
+
+        <label>Author Name</label>
+        <input type="text" placeholder="Your name" required>
+
+        <label>Year / Time Period</label>
+        <input type="text" placeholder="e.g. 1945, 19th Century" required>
+
+        <label>Category</label>
+        <select required>
+          <option value="">Select Category</option>
+          <option>War & Conflict</option>
+          <option>Cultural Heritage</option>
+          <option>Family History</option>
+          <option>Migration</option>
+          <option>Social Movements</option>
+        </select>
+
+        <label>Your Story</label>
+        <textarea rows="6" placeholder="Write your story here..." required></textarea>
+
+        <label>Upload Image (Optional)</label>
+        <input type="file">
+
+        <button type="submit">Submit Story</button>
+
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Echoes of History | Student Digital Archive</p>
+  </footer>
+
+</body>
+</html>
